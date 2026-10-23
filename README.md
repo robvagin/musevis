@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/assets/murmur-loop.gif" width="520" alt="Murmur: grey circles, triangles and squares moving to music">
+  <img src="docs/assets/murmur-loop.gif" width="520" alt="Musevis: grey circles, triangles and squares moving to music">
 </p>
 
-<h1 align="center">Murmur</h1>
+<h1 align="center">Musevis</h1>
 
 <p align="center">
   A VJ visualizer for DJ sets: circles, triangles and squares that move to your music<br>
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://robvagin.github.io/murmur-vj/"><b>Open Murmur</b></a> ·
+  <a href="https://robvagin.github.io/musevis/"><b>Open Musevis</b></a> ·
   <a href="#run-it-locally">Run it locally</a> ·
   <a href="#vibe-coded-by-a-designer">How it was made</a> ·
   <a href="#more-tools">More tools</a>
@@ -18,11 +18,11 @@
 
 ---
 
-A murmuration is thousands of starlings moving as one body. Murmur does the same with simple shapes: it listens to the room, finds the beat and moves a field of bodies with the music. Put it on a projector behind the decks and hide the panels.
+Musevis is a music visualizer for VJ sets: it listens to the room, finds the beat and moves a field of simple shapes with the music. Put it on a projector behind the decks and hide the panels.
 
 ## What it does
 
-- **Listens.** Live input from a microphone or a line in. Murmur detects the BPM, splits the sound into bands (sub, bass, mids, highs) and feels every hit
+- **Listens.** Live input from a microphone or a line in. Musevis detects the BPM, splits the sound into bands (sub, bass, mids, highs) and feels every hit
 - **Moves.** 22 behaviors: swarm, flock, orbit, ripple, shock, jelly, strobe, rain, turbulence, pendulum and more. Each one answers the beat in its own way
 - **Builds a set from layers.** Every layer has its own bodies, physics, opacity and blend. Stack them, solo them, hide them
 - **Forms.** Bodies gather into a symbol or into any word you type, then scatter again
@@ -33,7 +33,7 @@ A murmuration is thousands of starlings moving as one body. Murmur does the same
 - **Scenes.** Eight scene slots, export and import as JSON; after a reload, one click brings the last session back
 
 <p align="center">
-  <img src="docs/assets/murmur-panel.png" width="100%" alt="Murmur with its panels: character, layers, sound and camera">
+  <img src="docs/assets/murmur-panel.png" width="100%" alt="Musevis with its panels: character, layers, sound and camera">
 </p>
 
 <p align="center">
@@ -42,13 +42,13 @@ A murmuration is thousands of starlings moving as one body. Murmur does the same
 
 ## Run it
 
-**In the browser:** open [robvagin.github.io/murmur-vj](https://robvagin.github.io/murmur-vj/), press **ARM** and allow the microphone. Built and tested in Chrome.
+**In the browser:** open [robvagin.github.io/musevis](https://robvagin.github.io/musevis/), press **ARM** and allow the microphone. Built and tested in Chrome.
 
 ### Run it locally
 
 ```sh
-git clone https://github.com/robvagin/murmur-vj.git
-cd murmur-vj
+git clone https://github.com/robvagin/musevis.git
+cd musevis
 ./serve.sh
 ```
 
@@ -58,7 +58,7 @@ No install, no build step, no dependencies: `index.html` and `audio-core.js` are
 
 ## Vibe-coded by a designer
 
-I'm a designer. I built Murmur for parties with AI agents: I made the decisions, Claude Code wrote the code. This is the open version of the visualizer I play my own sets with.
+I'm a designer. I built Musevis for parties with AI agents: I made the decisions, Claude Code wrote the code. This is the open version of the visualizer I play my own sets with.
 
 Take it if you want it.
 
